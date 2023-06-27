@@ -174,9 +174,10 @@ html::-webkit-scrollbar-thumb{
  /* SOBRE NOSOTROS-------------------------------- */
 
 .about{
-    background: url(img/about-us.jpeg) no-repeat;
-    background-size: 55%;
-    background-color: #f1f1f1;
+    background: url(img/about-us2.jpeg) no-repeat;
+    object-fit: cover;
+    background-size: 50% ;
+    background-color: #343434;
     overflow: hidden;
     padding: 100px 0;
 }
@@ -459,6 +460,12 @@ html::-webkit-scrollbar-thumb{
        font-size:2.5rem ;
        text-align:start;
     }
+    .galery .galery-container img:active{
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
 }
 
 @media screen and (max-width:600px){
@@ -467,7 +474,7 @@ html::-webkit-scrollbar-thumb{
     }
     .about_section{
         padding: 60px;
-        background: url(img/about-us1.jpg) no-repeat;
+        background: url(img/about-usr1.jpg) no-repeat;
         object-fit: cover;
         background-size: 100vh;
     }    
@@ -520,11 +527,9 @@ html::-webkit-scrollbar-thumb{
         height: 100vh;
     }
     .about_section{
-        padding: 35px;
-        background: url(img/about-us1.jpg) no-repeat;
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
+        box-shadow: none;
+        background: #343434;
+        overflow: hidden;
     }    
     .about_section h1{
         color: #dfdede;
