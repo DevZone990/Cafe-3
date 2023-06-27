@@ -398,7 +398,7 @@ html::-webkit-scrollbar-thumb{
     padding: 1.5rem;
 }
 
-.footer .credit span{
+.footer .credit a{
     color: var(--main-color);
 }
  /* RESPONSIVE-------------------------------- */
@@ -460,12 +460,7 @@ html::-webkit-scrollbar-thumb{
        font-size:2.5rem ;
        text-align:start;
     }
-    .galery .galery-container img:active{
-        cursor: crosshair;
-        width: 300px;
-        opacity: 1;
-        filter: contrast(120%);
-    }
+
 }
 
 @media screen and (max-width:600px){
@@ -473,11 +468,10 @@ html::-webkit-scrollbar-thumb{
         padding: 0%;
     }
     .about_section{
-        padding: 60px;
-        background: url(img/about-usr1.jpg) no-repeat;
-        object-fit: cover;
-        background-size: 100vh;
-    }    
+        box-shadow: none;
+        background: #343434;
+        overflow: hidden;
+    }  
     .about_section h1{
         color: #dfdede;
         text-align: center;
@@ -547,14 +541,11 @@ html::-webkit-scrollbar-thumb{
     }
 
     .galery .galery-container{
-        padding: 3rem;
         display: flex;
         height: 100vh;
      }
-
-    .galery :active{
-        cursor: crosshair;
-        width: 100px;
+     .galery .galery-container img:hover{
+        width: 150px;
         opacity: 1;
         filter: contrast(120%);
     }

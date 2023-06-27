@@ -53,7 +53,7 @@ const observer = new IntersectionObserver((entries)=>{
 
 seccionesOcultas.forEach((seccion)=>observer.observe(seccion));
 
-
+// carrusel-----------------------------------------
 
 
 
