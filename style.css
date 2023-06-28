@@ -466,9 +466,9 @@ html::-webkit-scrollbar-thumb{
 @media screen and (max-width:600px){
     .about{
         padding: 0%;
+        margin-bottom: -2rem;
     }
     .about_section{
-        box-shadow: none;
         background: #343434;
         overflow: hidden;
     }  
@@ -518,20 +518,22 @@ html::-webkit-scrollbar-thumb{
 
     .about{
         padding: 0%;
-        height: 50vh;
+        height: 48vh;
+        margin-bottom: -2rem;
     }
     .about_section{
-        box-shadow: none;
         background: #343434;
         overflow: hidden;
     }    
     .about_section h1{
         color: #dfdede;
         text-align: center;
+        margin-bottom: 1rem;
     }
     .about_section span{
         color: var(--main-color);
         text-align: center;
+        margin-bottom: 1rem;
     }
 
     .about_section .text{
