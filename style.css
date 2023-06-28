@@ -518,7 +518,7 @@ html::-webkit-scrollbar-thumb{
 
     .about{
         padding: 0%;
-        height: 100vh;
+        height: 50vh;
     }
     .about_section{
         box-shadow: none;
